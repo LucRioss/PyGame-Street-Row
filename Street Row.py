@@ -137,7 +137,7 @@ class Jogador(pygame.sprite.Sprite):
         key = pygame.key.get_pressed()
 
         # DIREITA
-        if key[pygame.K_RIGHT]:
+        if key[pygame.K_d]:
             self.rect.x +=  1 # Move o jogador para 1 pixel por frame para a direita
             self.moverEsquerda = False
             self.moverDireita = False
@@ -149,7 +149,7 @@ class Jogador(pygame.sprite.Sprite):
                 self.moverDireita = True
 
         # ESQUERDA
-        if key[pygame.K_LEFT]:
+        if key[pygame.K_a]:
             if self.rect.x <= -10: # Limita até onde o jogador pode ir para a esquerda (barreira da esquerda)
                 self.rect.x = -10
             self.rect.x -= 1 # Move o jogador para 1 pixel por frame para a esquerda
@@ -168,7 +168,7 @@ class Jogador(pygame.sprite.Sprite):
         # PARA CIMA + PARA BAIXO + PULO
         if not (self.isJump):
             # PARA CIMA
-            if key[pygame.K_UP]:
+            if key[pygame.K_w]:
                 self.rect.y -= 1 
                 if self.rect.y <= 328: # Limita até onde o jogador pode ir para a cima (barreira de cima)
                     self.rect.y = 328
@@ -176,7 +176,7 @@ class Jogador(pygame.sprite.Sprite):
                     self.rect.y -= 1
                 
             # PARA BAIXO
-            if key[pygame.K_DOWN]:
+            if key[pygame.K_s]:
                 self.rect.y += 1  
                 if self.rect.bottom >= 495: #Limita até onde o jogador pode ir para baixo (barreira debaixo)
                     self.rect.bottom = 495
