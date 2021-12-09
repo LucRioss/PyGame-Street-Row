@@ -8,7 +8,7 @@ O objetivo do Street Row ao ser desenvolvido é ser um game de Pixel Art no esti
 ## License
 Street Row é [MIT licensed](./LICENSE.md)
 
-As imagens do software menos a do personagem que tem sua própria licença que no terminado tempo em que foi usado é uma licença publica, o mesmo se aplica ao resto das imagens que foram criados pelo grupo, onde damos total liberdade, com o devido crédito ao trabalho.
+As imagens do software menos a do personagem que tem sua própria licença que no terminado tempo em que foi usado é uma licença publica, o mesmo se aplica ao resto das imagens que foram criados pelo grupo, onde damos total liberdade de uso, com o devido crédito ao trabalho.
 
 ## Desenvolvedores
 * Matheus Gomes: matheusgomes110@hotmail.com
